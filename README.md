@@ -9,7 +9,7 @@ setup.bat
 ```
 
 ## How to run
-To run the training part you have to use this command (it may take a while):
+To run the training for the image classifier you have to use this command (it may take a while):
 
 ```
 python scripts/retrain.py --output_graph=tf_files/retrained_graph.pb --output_labels=tf_files/retrained_labels.txt --image_dir=tf_files/photos
@@ -33,7 +33,7 @@ You can add also the following options:
 
 ## Built With
 * [tensorflow-for-poets-2](https://github.com/googlecodelabs/tensorflow-for-poets-2) - Image Classification
-* [python_tutorial](https://github.com/minsuk-heo/python_tutorial/blob/master/data_science/nlp/word2vec_tensorflow.ipynb) - Word Embedding
+* [python_tutorial](https://github.com/minsuk-heo/python_tutorial/blob/master/data_science/nlp/word2vec_tensorflow.ipynb) - Word Embedding + cosine similarity instead of euclidean similarity
 ## Authors
 * **Matteo Mendula** (https://gitlab.com/MatteoMendula)
 * **Riccardo Salicini** (https://gitlab.com/RiccardoSalicini)
