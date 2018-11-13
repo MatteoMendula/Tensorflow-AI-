@@ -1,6 +1,9 @@
 # TensorFlowAI
 TensorFlow project for AI with image classification and word embedding combined.
 
+## Live DEMO on YouTube
+https://www.youtube.com/watch?v=oLLSc-lHAaE&t=
+
 ## Setup
 To use this project you need all required python modules. So to do that run the following command (that will also permit to execute the training and a default program):
 
